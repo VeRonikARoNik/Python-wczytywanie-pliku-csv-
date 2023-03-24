@@ -84,7 +84,7 @@ with open('nowy_data.csv', 'w', newline='') as file:
     writer.writerows(data)
 ```
 ## Wynik
-![image](https://user-images.githubusercontent.com/76017554/227404927-4098685b-742e-4f2b-8716-0903cf698788.png)
+![image](https://user-images.githubusercontent.com/76017554/227410566-21e8a221-3b0a-4f7b-93b5-1e8c0a4acab6.png)
 
 ## Zastosowanie Pandas
 
