@@ -1,5 +1,5 @@
-# Python-wczytywanie-pliku-csv-
-Metody wczytywania pliku csv.  
+# Python wczytywanie pliku csv
+Metody wczytywania pliku csv be użycia oraz użyciem pandas.  
 Spis treści: 
 * [Opis programu](#opis-programu)
 * [Teoria](#teoria)
@@ -37,6 +37,7 @@ Ten moduł udostępnia odczyt danych csv (csv.reader()) i zapis csv (csv.writer(
 
 Moduł math zawiera funkcje matematyczne, które są wykorzystane w programie do obliczenia przyspieszenia wypadkowego.
 
+### Kod programu
 ```
 import csv
 import math
@@ -87,7 +88,7 @@ with open('nowy_data.csv', 'w', newline='') as file:
 ![image](https://user-images.githubusercontent.com/76017554/227410566-21e8a221-3b0a-4f7b-93b5-1e8c0a4acab6.png)
 
 ## Zastosowanie Pandas
-
+### Kod proggramu
 ```
 import pandas as pd
 import math
