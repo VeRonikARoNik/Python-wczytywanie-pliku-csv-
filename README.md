@@ -20,7 +20,11 @@ Program wczytuje plik z danymi data.csv. Znajdują się w nim pomiary z akcelero
 Program dodaje na początek przedrostek czasu oraz na koniec kolumnę z przyspieszeniem wypadkowym oraz 
 zapisuje całość jako nowy plik csv nie używając pandas. Program odczytuje pierwszy wiersz, który określa nazwy tych danych ax,ay,az.
 
-Drugi program wykonuje to samo przy pomocy pandas.
+Drugi program wykonuje to samo przy pomocy biblioteki pandas.
+
+Program trzeci oblicza FFT dla wszystkich osi, a wyniki przedstawione na wykresie z moliwością zapisu je do pliku. A także wynacenie częstotliwości wiodącej przy pomocy biblioeki pandas.
+
+W program czwarty dodano sygnał szumu oraz jego odfiltrowanie stosując pasmowo przepustowy filtr Butterwortha.
 
 ## Teoria
 Przyspieszenie wypadkowe akcelerometru to przyspieszenie, z jakim zmienia się prędkość akcelerometru w trzech osiach, x, y i z. 
