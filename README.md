@@ -64,7 +64,7 @@ sygnału z dziedziny czasu na dziedzinę częstotliwości, szczególnie dla duż
 ## Technologie
 W programie pierwszym wykorzystane są dwa moduły wbudowane w Pythona: csv i math.
 Moduł csv umożliwia wczytanie i zapisanie danych w formacie csv (ang. comma-separated values). 
-Ten moduł udostępnia odczyt danych csv (csv.reader()) i zapis csv (csv.writer()), które pozwalają na łatwe operowanie na plikach csv.
+Ten moduł udostępnia odczyt danych csv (csv.reader()) i zapis csv (`csv.writer()`), które pozwalają na łatwe operowanie na plikach csv.
 Moduł math zawiera funkcje matematyczne, które są wykorzystane w programie do obliczenia przyspieszenia wypadkowego.
 
 W programie drugim użyto metody pd.read_csv() do wczytania pliku csv do obiektu DataFrame. Następnie dodano kolumnę z czasem za pomocą metody df.insert(). Obliczono przyspieszenie wypadkowe przy użyciu funkcji lambda i metody df.apply(). Na koniec zapisano ramkę danych do pliku csv przy użyciu metody df.to_csv().
